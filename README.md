@@ -12,3 +12,12 @@ Fevrier - Mai 2023
 - Ouzeguane Redouane
 # Encadreur
 - [Chibouti Younes](https://github.com/ynsoft-dev)
+# Packages utilisés
+- jeroennoten/laravel-adminlte [wiki](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation)
+- laravel/ui bootstrap [wiki](https://github.com/laravel/ui)
+- 
+- 
+- 
+- 
+- 
+
