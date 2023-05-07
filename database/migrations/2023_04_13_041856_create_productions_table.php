@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('structure_id')->references('id')->on('structures')->onUpdate('cascade')->onDelete('cascade');
             $table->foreignId('line_id')->references('id')->on('lines')->onUpdate('cascade')->onDelete('cascade');
             $table->foreignId('product_id')->references('id')->on('products')->onUpdate('cascade')->onDelete('cascade');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
