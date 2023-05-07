@@ -14,4 +14,9 @@ class Customer extends Model
         'wilaya',
         'activite',
     ];
+
+    public function orders()
+    {
+    return $this->hasMany(Orders::class);
+    }
 }
