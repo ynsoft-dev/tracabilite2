@@ -18,7 +18,8 @@ return new class extends Migration
             $table->foreignIdFor(product::class);
             $table->foreignIdFor(Line::class);
             $table->integer('cadence');
-            $table->enum('uniteprod',['Plt','Tonne','unit']);
+            $table->enum('uniteprod',['Plt','Tonne','Unit']);
+            $table->softDeletes();
             $table->timestamps();
         });
     }
