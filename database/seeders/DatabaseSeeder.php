@@ -17,7 +17,9 @@ class DatabaseSeeder extends Seeder
         StructuresTableSeeder::class,
         LinesTableSeeder::class,
         ProductsTableSeeder::class,
+        ProductLinesTableSeeder::class,
         CustomersTableSeeder::class,
+
     ]);
     }
 }
