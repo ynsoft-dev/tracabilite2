@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('code')->unique();
             $table->text('description');
-            $table->date('DLUO');
+            $table->integer('DLUO');
             $table->timestamps();
-            
+
         });
     }
 

@@ -17,8 +17,9 @@ return new class extends Migration
             $table->string('depotdest');
             $table->date('dateorder');
             // $table->foreignId('customer_id')->references('id')->on('customers')->onUpdate('cascade')->onDelete('cascade');
+            $table->softDeletes();
             $table->timestamps();
-            
+
         });
     }
 
