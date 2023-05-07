@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('code')->unique();
             $table->text('description');
             $table->integer('DLUO');
+            $table->softDeletes();
             $table->timestamps();
 
         });
