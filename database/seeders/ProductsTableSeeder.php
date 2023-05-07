@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class ProductsTableSeeder extends Seeder
 {
@@ -14,10 +15,7 @@ class ProductsTableSeeder extends Seeder
      */
     public function run()
     {
-
-
         \DB::table('products')->delete();
-
         \DB::table('products')->insert(array (
             0 =>
             array (
