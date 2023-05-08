@@ -17,7 +17,12 @@ class Order extends Model
     ];
     public function products()
     {
-    	return $this->belongsToMany(Product::class)->withPivot('quantity');
+    	return $this->hasMany(Product::class)->withPivot('quantity');
     }
-    protected $dates =['deleted_at']; 
+
+    public function customer()
+    {
+    return $this->belongsTo(Customer::class);
+    }
+    protected $dates =['deleted_at'];
 }

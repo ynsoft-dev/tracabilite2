@@ -306,83 +306,156 @@ return [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
+        // [
+        //     'text' => 'test',
+        //     'url'  => 'test',
+        //     // 'can'  => 'manage-blog',
+        // ],
+        // [
+        //     'text'        => 'pages',
+        //     'url'         => 'admin/pages',
+        //     'icon'        => 'far fa-fw fa-file',
+        //     'label'       => 4,
+        //     'label_color' => 'success',
+        // ],
+        ['header' => 'Production'],
         [
-            'text' => 'test',
-            'url'  => 'test',
-            // 'can'  => 'manage-blog',
+        'text' => 'Productions',
+        'url' => 'productions',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'red',
+        // 'can' => 'production-list',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
-        ],
-        ['header' => 'account_settings'],
-        [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+        'text' => 'Impressions',
+        'url' => 'prints',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'red',
+        // 'can' => 'print-list',
         ],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+        'text' => 'Palettes',
+        'url' => 'pallets',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'red',
+        // 'can' => 'pallets-list',
+        ],
+
+        ['header' => 'Expéditions'],
+        [
+        'text' => 'Clients',
+        'url' => 'customers',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'yellow',
+        // 'can' => 'customer-list',
         ],
         [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
+        'text' => 'Commandes',
+        'url' => 'orders',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'yellow',
+        // 'can' => 'order-list',
         ],
-        ['header' => 'labels'],
+
         [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
+        'text' => 'Chargements',
+        'url' => 'loads',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'yellow',
+        // 'can' => 'load-list',
+        ],
+
+        ['header' => 'Configuration'],
+        [
+        'text' => 'Utilisateurs',
+        'url'  => 'users',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'cyan',
+        //  'can' => 'user-list',
         ],
         [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
+        'text' => 'Profils',
+        'url' => 'roles',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'cyan',
+        // 'can' => 'role-list',
         ],
         [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
+        'text' => 'Structures',
+        'url' => 'structures',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'cyan',
+        // 'can' => 'structure-list',
         ],
+        [
+        'text' => 'Produits',
+        'url' => 'products',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'cyan',
+        // 'can' => 'product-list',
+        ],
+        [
+        'text' => 'Lignes',
+        'url' => 'lines',
+        // 'icon' => 'fas fa-fw fa-user',
+        'icon_color' => 'cyan',
+        // 'can' => 'line-list',
+        ],
+        // [
+        //     'text'    => 'multilevel',
+        //     // 'icon'    => 'fas fa-fw fa-share',
+        //     'icon_color' => 'cyan',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'level_one',
+        //             'url'  => '#',
+        //         ],
+        //         [
+        //             'text'    => 'level_one',
+        //             'url'     => '#',
+        //             'submenu' => [
+        //                 [
+        //                     'text' => 'level_two',
+        //                     'url'  => '#',
+        //                 ],
+        //                 [
+        //                     'text'    => 'level_two',
+        //                     'url'     => '#',
+        //                     'submenu' => [
+        //                         [
+        //                             'text' => 'level_three',
+        //                             'url'  => '#',
+        //                         ],
+        //                         [
+        //                             'text' => 'level_three',
+        //                             'url'  => '#',
+        //                         ],
+        //                     ],
+        //                 ],
+        //             ],
+        //         ],
+        //         [
+        //             'text' => 'level_one',
+        //             'url'  => '#',
+        //         ],
+        //     ],
+        // ],
+        // ['header' => 'labels'],
+        // [
+        //     'text'       => 'important',
+        //     'icon_color' => 'red',
+        //     'url'        => '#',
+        // ],
+        // [
+        //     'text'       => 'warning',
+        //     'icon_color' => 'yellow',
+        //     'url'        => '#',
+        // ],
+        // [
+        //     'text'       => 'information',
+        //     'icon_color' => 'cyan',
+        //     'url'        => '#',
+        // ],
     ],
 
     /*

@@ -14,7 +14,7 @@ class product extends Model
     ];
     public function lines()
     {
-        return $this->hasMany(Line::class);
+        return $this->belongsToMany(Line::class);
     }
-    protected $dates =['deleted_at']; 
+    protected $dates =['deleted_at'];
 }
