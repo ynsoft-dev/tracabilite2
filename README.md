@@ -13,9 +13,9 @@ Fevrier - Mai 2023
 # Encadreur
 - [Chibouti Younes](https://github.com/ynsoft-dev)
 # Packages utilisés
-- jeroennoten/laravel-adminlte [wiki](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation)
-- laravel/ui bootstrap [wiki](https://github.com/laravel/ui)
-- 
+- [jeroennoten/laravel-adminlte](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation)
+- [laravel/ui bootstrap](https://github.com/laravel/ui)
+- [spatie/laravel-permission](https://spatie.be/docs/laravel-permission/v5/installation-laravel)
 - 
 - 
 - 
