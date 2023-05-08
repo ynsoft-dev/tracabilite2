@@ -21,6 +21,8 @@ class DatabaseSeeder extends Seeder
             ProductLinesTableSeeder::class,
             OrdersTableSeeder::class,
             OrderProductTableSeeder::class,
+            SpatieRolesTableSeeder::class,
+            SpatiePermissionsTableSeeder::class,
     ]);
     }
 }
