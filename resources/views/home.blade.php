@@ -1,5 +1,5 @@
 {{-- @extends('layouts.app') --}}
-@extends('adminlte::page')
+@extends('adminlte::page', ['iFrameEnabled' => true])
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
