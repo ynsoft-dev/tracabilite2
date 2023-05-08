@@ -2,7 +2,7 @@
 Projet de fin d'Etude en vue de l'obtention du diplome de master 2 en ......
 réalisé avec [Laravel 10](https://laravel.com/docs)
 ## Theme
-[Traçabilité Produit fini Conditionnement Huile](https://github.com/ynsoft-dev/tracabilite2).
+[Traçabilité Produit fini](https://github.com/ynsoft-dev/tracabilite2).
 ## Période
 Fevrier - Mai 2023
 ## Stagiaires
