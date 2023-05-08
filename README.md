@@ -16,7 +16,7 @@ Fevrier - Mai 2023
 - [jeroennoten/laravel-adminlte](https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation)
 - [laravel/ui bootstrap](https://github.com/laravel/ui)
 - [spatie/laravel-permission](https://spatie.be/docs/laravel-permission/v5/installation-laravel)
-- 
+- Maria DB 10.5+ : pour eviter les probleme de migrations
 - 
 - 
 - 

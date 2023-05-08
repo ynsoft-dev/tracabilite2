@@ -24,5 +24,7 @@ class DatabaseSeeder extends Seeder
             SpatieRolesTableSeeder::class,
             SpatiePermissionsTableSeeder::class,
     ]);
+        $this->call(SpatiePermissionsTableSeeder::class);
+        $this->call(SpatieRoleHasPermissionsTableSeeder::class);
     }
 }
