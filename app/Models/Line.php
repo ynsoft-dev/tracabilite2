@@ -15,10 +15,10 @@ class Line extends Model
     ];
     public function products()
     {
-        return $this->hasMany(product::class);
+        return $this->belongsToMany(Product::class)->withPivot('id','cadence', 'uniteprod');
     }
     public function structure()
     {
-        return $this->belongsTo(Structure::class);
+        return $this->belongsTo(Structure::class, 'structure_id', 'id');
     }
 }

@@ -371,14 +371,14 @@ return [
         'url'  => 'users',
         'icon' => 'fas fa-user',
         'icon_color' => 'cyan',
-        //  'can' => 'user-list',
+         'can' => 'user-list',
         ],
         [
         'text' => 'Profils',
         'url' => 'roles',
         'icon' => 'fas fa-users',
         'icon_color' => 'cyan',
-        // 'can' => 'role-list',
+        'can' => 'role-list',
         ],
         [
         'text' => 'Structures',
